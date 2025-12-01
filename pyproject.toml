@@ -7,7 +7,7 @@ name = "blank"
 version = "0.1.0"
 description = "A blank Python project template with modern tooling"
 readme = "README.md"
-requires-python = ">=3.13"
+requires-python = ">=3.12"
 authors = [
     { name = "Your Name" }
 ]
@@ -15,31 +15,23 @@ classifiers = [
     "Development Status :: 3 - Alpha",
     "Intended Audience :: Developers",
     "Programming Language :: Python :: 3",
-    "Programming Language :: Python :: 3.13",
+    "Programming Language :: Python :: 3.12",
 ]
 dependencies = []
-
-[project.optional-dependencies]
-dev = [
-    "pytest>=9.0.0",
-    "black>=25.0.0",
-    "ruff>=0.14.0",
-    "mypy>=1.18.0",
-]
 
 [project.scripts]
 blank = "blank.main:main"
 
 [tool.black]
 line-length = 88
-target-version = ['py313']
+target-version = ['py312']
 
 [tool.ruff]
 line-length = 88
-target-version = "py313"
+target-version = "py312"
 
 [tool.mypy]
-python_version = "3.13"
+python_version = "3.12"
 warn_return_any = true
 warn_unused_configs = true
 
