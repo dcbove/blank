@@ -32,7 +32,6 @@ dmypy.json
 .ruff_cache/
 
 # IDEs
-.vscode/
 .idea/
 *.swp
 *.swo
